@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "608897446054",
+    "firebase_url": "https://siansa-dev-default-rtdb.firebaseio.com",
+    "project_id": "siansa-dev",
+    "storage_bucket": "siansa-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608897446054:android:4415674a69fb106ca94467",
+        "android_client_info": {
+          "package_name": "com.siansa.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfwHJKrFYuKK2KMFKj81rKpWq2PFTnxE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
