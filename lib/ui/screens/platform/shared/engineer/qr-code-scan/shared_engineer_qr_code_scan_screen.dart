@@ -117,7 +117,8 @@ class _SharedEngineerQrCodeScanScreenState
         setState(() {
           currentResult = result;
         });
-        context.go(RoutesConstants.EQUIPMENT_DETAIL_SCREEN);
+        context.go(RoutesConstants.EQUIPMENT_DETAIL_SCREEN,
+            extra: json.decode(result.text));
       },
     );
   }
