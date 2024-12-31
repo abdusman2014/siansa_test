@@ -81,7 +81,7 @@ final routes = [
   ),
   GoRoute(
     path: RoutesConstants.EQUIPMENT_DETAIL_SCREEN,
-    builder: (context, state) =>  EquipmentDetailScreen(data: state.pathParameters,),
+    builder: (context, state) =>  EquipmentDetailScreen(data: state.extra! as Map<String,dynamic>,),
   ),
   GoRoute(
     path: RoutesConstants.CLIENT_ROUTE,
