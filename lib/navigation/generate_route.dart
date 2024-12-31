@@ -18,10 +18,12 @@ import 'package:siansa_app/ui/screens/core/engineer/home/core_engineer_home_scre
 import 'package:siansa_app/ui/screens/core/common/route_not_found/core_common_route_not_found.dart';
 import 'package:go_router/go_router.dart';
 import 'package:siansa_app/ui/screens/platform/shared/admin/home/shared_admin_home_screen.dart';
+import 'package:siansa_app/ui/screens/platform/shared/engineer/qr-code-scan/equipment%D9%80%D9%80_detail_screen.dart';
+import 'package:siansa_app/ui/screens/platform/shared/engineer/qr-code-scan/shared_engineer_qr_code_scan_screen.dart';
 
 final goRouter = GoRouter(
   routes: routes,
-  initialLocation: RoutesConstants.ENGINEER_HOME_ROUTE,
+  initialLocation: RoutesConstants.LOGIN_ROUTE,
   // Use errorBuilder for non-existing routes
   errorBuilder: (context, state) => const CoreCommonRouteNotFoundScreen(),
 );
@@ -72,6 +74,14 @@ final routes = [
   GoRoute(
     path: RoutesConstants.ENGINEER_ROUTE,
     builder: (context, state) => const CoreEngineerHomeScreen(),
+  ),
+  GoRoute(
+    path: RoutesConstants.SHARED_ENGINEER_QR_CODE_SCAN_SCREEN,
+    builder: (context, state) => const SharedEngineerQrCodeScanScreen(),
+  ),
+  GoRoute(
+    path: RoutesConstants.EQUIPMENT_DETAIL_SCREEN,
+    builder: (context, state) =>  EquipmentDetailScreen(data: state.pathParameters,),
   ),
   GoRoute(
     path: RoutesConstants.CLIENT_ROUTE,

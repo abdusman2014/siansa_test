@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:siansa_app/constants/routes_constants.dart';
 import 'package:siansa_app/state/providers/user_provider/user_provider.dart';
 import 'package:siansa_app/ui/widgets/app_widgets/app_confirmation_dialog.dart';
 import 'package:siansa_app/ui/ui_utils/responsive/responsive.dart';
@@ -79,6 +80,16 @@ class SharedEngineerHomeScreen extends StatelessWidget {
                 );
               },
               child: Text("SALIR"),
+            ),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.red, // Set the background color to red
+                foregroundColor: Colors.white,
+              ),
+              onPressed: () {
+                context.go(RoutesConstants.SHARED_ENGINEER_QR_CODE_SCAN_SCREEN);
+              },
+              child: Text("Check Equipment"),
             ),
           ],
         ),

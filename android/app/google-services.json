@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:608897446054:android:4415674a69fb106ca94467",
+        "mobilesdk_app_id": "1:608897446054:android:94c6ee7b1e545755a94467",
         "android_client_info": {
-          "package_name": "com.siansa.app"
+          "package_name": "com.siansa.siansa"
         }
       },
       "oauth_client": [],

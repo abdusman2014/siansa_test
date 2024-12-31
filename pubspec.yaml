@@ -58,7 +58,7 @@ dependencies:
   flutter_spinkit: ^5.2.0
   # devicelocale: ^0.6.0
   flutter_pdfview: ^1.0.1
-  permission_handler:
+  
   http: ^1.1.0
   flutter_google_places_sdk: ^0.3.6
   lottie: ^2.6.0
@@ -87,6 +87,8 @@ dependencies:
   data_table_2: ^2.5.15
   qr_flutter: ^4.1.0
   flutter_keyboard_visibility: ^6.0.0
+  qr_code_dart_scan: ^0.9.4
+  permission_handler: ^11.3.1
 
 dev_dependencies:
   flutter_test:
