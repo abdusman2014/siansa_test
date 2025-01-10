@@ -22,6 +22,7 @@ class RoutesConstants {
   static const String SHARED_ENGINEER_QR_CODE_SCAN_SCREEN = "/shared-engineer-qr-code-scan-screen";
   
   static const String EQUIPMENT_DETAIL_SCREEN = "/equipment-detail-screen";
+  static const String EQUIPMENT_ID_SCREEN = "/equipment-id-screen";
 
   static const String CLIENT_ROUTE = "/client";
   static const String CLIENT_HOME_ROUTE = "/client-home";
